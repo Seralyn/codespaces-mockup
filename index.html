@@ -69,7 +69,7 @@
       <div id="right-side-nav" class="flex text-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5 mr-3"
+          class="h-5 w-5 mr-3 self-center"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -83,11 +83,11 @@
         </svg>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
+          class="h-5 w-5 self-center"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          stroke-width="1.5"
+          stroke-width="2"
         >
           <path
             stroke-linecap="round"
@@ -112,7 +112,7 @@
 
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
+          class="h-5 w-5 self-center"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -153,9 +153,23 @@
           seconds.
         </div>
         <div
-          class="bg-neutral-100 text-black px-7 py-5 rounded-lg font-bold mt-12"
+          class="bg-neutral-100 text-black px-7 py-4 rounded-lg font-bold mt-12 hover:shadow-white/30 hover:shadow-xl hover:cursor-pointer"
         >
-          Get started >
+          Get started
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-3 w-3 inline"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="3"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
         </div>
       </div>
     </section>
@@ -207,11 +221,11 @@
         <div class="flex flex-col">
           <div
             id="main-vscode-window"
-            class="rounded-lg overflow-hidden mb-[600px]"
+            class="rounded-lg overflow-hidden mb-[600px] relative mt-5 fancy-shadow border-black"
           >
             <img
               src="/img/illo-codespaces.webp"
-              class="w-[58rem] mt-5 rounded-md"
+              class="w-[58rem] rounded-md"
               alt=""
             />
           </div>

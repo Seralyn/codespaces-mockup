@@ -70,20 +70,6 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-/* .main-shadow {
-  --tw-shadow: 0 25px 200px -2px rgba(255, 255, 255, 0.45);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(255, 255, 255, 0)),
-    var(--tw-ring-shadow, 0 0 rgba(255, 255, 255, 0)), var(--tw-shadow);
-} */
-
-/* #main-vscode-window {
-  background: rgb(105, 84, 135);
-  background: radial-gradient(
-    circle,
-    rgba(105, 84, 135, 1) 0%,
-    rgba(105, 84, 135, 1) 35%,
-    rgba(73, 57, 94, 1) 65%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  background-position: 0px 300px;
-} */
+.fancy-shadow {
+  box-shadow: 0px 0px 100px 100px #8b7cc64d;
+}
