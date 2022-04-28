@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0d1117;
+  color: white;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4d4963;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #f2eaff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #4d4963;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #4d4963;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* .main-shadow {
+  --tw-shadow: 0 25px 200px -2px rgba(255, 255, 255, 0.45);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(255, 255, 255, 0)),
+    var(--tw-ring-shadow, 0 0 rgba(255, 255, 255, 0)), var(--tw-shadow);
+} */
+
+/* #main-vscode-window {
+  background: rgb(105, 84, 135);
+  background: radial-gradient(
+    circle,
+    rgba(105, 84, 135, 1) 0%,
+    rgba(105, 84, 135, 1) 35%,
+    rgba(73, 57, 94, 1) 65%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background-position: 0px 300px;
+} */
