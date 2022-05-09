@@ -71,5 +71,12 @@ input:checked + .slider:before {
 }
 
 .fancy-shadow {
-  box-shadow: 0px 0px 100px 100px #8b7cc64d;
+  box-shadow: 0px 0px 80px 80px #867bb472;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: cover;
 }

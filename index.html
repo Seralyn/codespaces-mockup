@@ -192,45 +192,93 @@
           ></div>
           <div class="flex flex-row-reverse">
             <div
-              class="bg-[#1a2129] w-44 h-30 p-6 rounded-md border border-[1px] border-gray-800 mb-4 text-gray-400 font-light text-md"
+              class="bg-[#1a2129] w-44 h-32 py-6 px-4 rounded-md border border-[1px] border-gray-800 mb-4 text-gray-400 font-light text-md"
             >
               CPUs up to
               <div>
-                <div class="text-[#bdaeff] text-4xl font-extrabold inline">
+                <div
+                  class="text-[#b3aeff] text-5xl font-extrabold inline antialiased"
+                >
                   32
                 </div>
-                <div class="text-[#bdaeff] text-lg font-extrabold inline">
+                <div
+                  class="text-[#b3aeff] text-2xl font-extrabold inline antialiased"
+                >
                   cores
                 </div>
               </div>
             </div>
             <div
-              class="bg-[#1a2129] w-36 h-30 mr-4 rounded-md border border-[1px] border-gray-800 mb-4"
+              class="bg-[#1a2129] w-36 h-30 mr-4 rounded-md border-[1px] border-gray-800 mb-4"
             ></div>
           </div>
           <div
-            class="bg-[#1a2129] w-64 p-4 h-14 rounded-md border border-[1px] border-gray-800 flex justify-center items-center mb-4"
+            class="bg-[#1a2129] w-64 p-4 h-16 rounded-md border-[1px] border-gray-800 flex justify-center items-center mb-4"
           >
             <img src="img/illo-hero-icons.png" alt="" />
           </div>
           <div class="bg-[#1a2129] w-64 p-4 h-52 rounded-md overflow-hidden">
             <img src="img/illo-hero-debugger.png" alt="" />
           </div>
+          <div class="flex flex-row-reverse mt-7">
+            <div
+              class="bg-[#1a2129] w-[6.5rem] h-[6.5rem] rounded-md border border-gray-800 py-5 px-5"
+            >
+              <img class="" src="./img/illo-hero-vscode.png" alt="" />
+            </div>
+            <div
+              class="bg-[#1a2129] w-28 h-[5.5rem] mr-4 rounded-md border border-gray-800 p-6"
+            ></div>
+          </div>
         </div>
 
         <div class="flex flex-col">
           <div
             id="main-vscode-window"
-            class="rounded-lg overflow-hidden mb-[600px] relative mt-5 fancy-shadow border-black"
+            class="rounded-lg mt-5 fancy-shadow border-black z-30"
           >
             <img
               src="/img/illo-codespaces.webp"
-              class="w-[58rem] rounded-md"
+              class="w-[59.5rem] rounded-md"
               alt=""
             />
           </div>
+
+          <div class="flex gap-4 mt-7 z-20">
+            <div
+              class="bg-[#1a2129] w-[33.5rem] h-16 rounded-md border border-gray-800 flex justify-center items-center px-4"
+            >
+              <img src="./img/illo-hero-stats.png" alt="" />
+            </div>
+            <div
+              class="bg-[#1a2129] w-[25rem] h-16 rounded-md border border-gray-800 flex justify-center items-center pl-5"
+            >
+              <img src="./img/illo-hero-tabs.png" alt="" />
+            </div>
+          </div>
+          <div class="flex items-start gap-4 mt-4">
+            <div
+              class="bg-[#1a2129] w-60 h-32 rounded-md border border-gray-800 flex justify-center items-center px-4"
+            >
+              <img src="./img/illo-hero-bugs.png" alt="" />
+            </div>
+            <div
+              class="bg-[#1a2129] w-[23.5rem] h-36 rounded-md border border-gray-800 flex justify-start items-center pl-7 py-5"
+            >
+              <img src="./img/illo-hero-setup.png" alt="" />
+            </div>
+            <div
+              class="bg-[#1a2129] w-40 h-16 rounded-md border border-gray-800"
+            ></div>
+            <div
+              class="bg-[#1a2129] w-32 h-24 rounded-md border border-gray-800 flex justify-center items-center px-5"
+            >
+              <img src="./img/illo-hero-docker.png" alt="" />
+            </div>
+          </div>
         </div>
-        <div class="flex flex-col mt-14 ml-4">
+
+        <div class="flex flex-col mt-[4.5rem] ml-4 z-20">
           <div
             class="bg-[#1a2129] w-16 h-32 rounded-md border border-[1px] border-gray-800 mb-4"
           ></div>
@@ -275,10 +323,153 @@
               <img src="img/illo-hero-checks.png" alt="" />
             </div>
           </div>
+          <div
+            class="bg-[#1a2129] h-48 rounded-md mr-4 flex justify-center items-center px-5 py-3 mt-7 w-64"
+          >
+            <img src="./img/illo-hero-ports.png" alt="" />
+          </div>
         </div>
       </div>
     </section>
 
+    <section id="fullPowerVSC" class="mt-44 h-[70vh]">
+      <div class="flex justify-center gap-20">
+        <div class="flex-col">
+          <div class="w-[32rem]">
+            <h1 id="sec2Title" class="text-5xl font-extrabold">
+              The full power of Visual Studio Code
+            </h1>
+          </div>
+          <div class="w-[37rem] mb-8">
+            <p
+              id="sec2Para"
+              class="text-gray-400 mt-6 font-light text-[1.3rem] tracking-wide"
+            >
+              Use the full power of Visual Studio Code, including the editor,
+              terminal, debugger, version control, settings sync, and the entire
+              ecosystem of extensions. Work in the browser or hand off to your
+              desktop.
+            </p>
+          </div>
+          <div class="w-80">
+            <img id="browserIcons" src="./img/logos.png" alt="" />
+          </div>
+        </div>
+        <div class="relative">
+          <div class="rounded-lg overflow-hidden">
+            <img class="w-[37rem]" src="./img/illo-vscode.webp" alt="" />
+          </div>
+          <div
+            id="terminalImage"
+            class="rounded-lg overflow-hidden w-[32rem] absolute left-36 top-48"
+          >
+            <img src="./img/illo-terminal.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fasterThan" class="h-[75vh]">
+      <div class="flex justify-start ml-[20rem] gap-20 relative">
+        <div class="flex-col">
+          <div class="w-[34rem]">
+            <h1 id="sec3Title" class="text-5xl font-extrabold">
+              Faster than your laptop
+            </h1>
+          </div>
+          <div class="w-[37rem] mb-8">
+            <p
+              id="sec3Para"
+              class="text-gray-400 mt-6 font-light text-[1.3rem] tracking-wide"
+            >
+              Spin up new dev environment for any sized project in seconds with
+              prebuilt images. GitHub’s own 35GB dev image starts in under 10
+              seconds. Scale your cloud VMs up to 32 cores and 64GB of RAM. And
+              with low-latency connections across four regions, you won’t even
+              remember it’s not your local machine.
+            </p>
+          </div>
+          <div class="flex w-[35rem] gap-20">
+            <div id="specCol1" class="flex flex-col">
+              <div
+                class="text-gray-400 mt-6 font-light text-[1rem] tracking-wide"
+              >
+                CPUs up to
+              </div>
+              <div class="font-extrabold text-3xl">32 cores</div>
+            </div>
+
+            <div id="specCol2" class="flex flex-col">
+              <div
+                class="text-gray-400 mt-6 font-light text-[1rem] tracking-wide"
+              >
+                Memory up to
+              </div>
+              <div class="font-extrabold text-3xl">64 GB</div>
+            </div>
+            <div id="specCol3" class="flex flex-col">
+              <div
+                class="text-gray-400 mt-6 font-light text-[1rem] tracking-wide"
+              >
+                Spin up
+              </div>
+              <div class="font-extrabold text-3xl">&lt10 sec</div>
+            </div>
+        </div>
+        <div class="">
+          <div class="absolute right-52 -top-52">
+            <img class="w-[50rem]" src="./img/illo-cpu.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="standardizedDevEnv" class="mt-44 h-[70vh]">
+      <div class="flex justify-center items-center gap-28">
+        <div class="flex-col">
+          <div class="w-[32rem]">
+            <h1 id="sec4Title" class="text-5xl font-extrabold">
+              Standardized dev environments
+            </h1>
+          </div>
+          <div class="w-[37rem] mb-8">
+            <p
+              id="sec4Para"
+              class="text-gray-400 mt-6 font-light text-[1.3rem] tracking-wide"
+            >
+            Join a new team and just start coding. Standardize environments, runtime requirements, hardware specs, extensions and editor settings in .devcontainer.json configuration files. Isolate dependencies between projects with containers and docker-compose.
+            </p>
+          </div>
+          
+        </div>
+        <div class="relative">
+          <div class="rounded-lg overflow-hidden">
+            <img class="w-[33rem]" src="./img/illo-env-bg.png" alt="" />
+          </div>
+          <div
+            id="terminalImage"
+            class="rounded-lg overflow-hidden w-[32rem] absolute left-36 top-48"
+          >
+            <!-- <img src="./img/illo-terminal.webp" alt="" /> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPORT GREENSOCK -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- IMPORT SCROLLTRIGGER -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"
+      integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
