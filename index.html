@@ -5,22 +5,17 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <meta property="og:title" content="" />
     <meta property="og:type" content="" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="" />
-
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
     <!-- Place favicon.ico in the root directory -->
-
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
-
     <meta name="theme-color" content="#fafafa" />
   </head>
-
   <body>
     <!-- Add your site or application content here -->
     <nav class="flex h-16 justify-between items-center">
@@ -109,7 +104,6 @@
             d="M19 9l-7 7-7-7"
           />
         </svg>
-
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-5 w-5 self-center"
@@ -140,7 +134,6 @@
         </svg>
       </div>
     </nav>
-
     <section id="title-header" class="mt-24">
       <div class="flex flex-col items-center min-h-full">
         <div
@@ -173,7 +166,6 @@
         </div>
       </div>
     </section>
-
     <section id="vscodebubbles">
       <div class="flex items-center justify-center mt-24 text-xl">
         <div>Desktop</div>
@@ -231,7 +223,6 @@
             ></div>
           </div>
         </div>
-
         <div class="flex flex-col">
           <div
             id="main-vscode-window"
@@ -243,7 +234,6 @@
               alt=""
             />
           </div>
-
           <div class="flex gap-4 mt-7 z-20">
             <div
               class="bg-[#1a2129] w-[33.5rem] h-16 rounded-md border border-gray-800 flex justify-center items-center px-4"
@@ -277,7 +267,6 @@
             </div>
           </div>
         </div>
-
         <div class="flex flex-col mt-[4.5rem] ml-4 z-20">
           <div
             class="bg-[#1a2129] w-16 h-32 rounded-md border border-[1px] border-gray-800 mb-4"
@@ -331,7 +320,6 @@
         </div>
       </div>
     </section>
-
     <section id="fullPowerVSC" class="mt-44 h-[70vh]">
       <div class="flex justify-center gap-20">
         <div class="flex-col">
@@ -368,9 +356,8 @@
         </div>
       </div>
     </section>
-
     <section id="fasterThan" class="h-[75vh]">
-      <div class="flex justify-start ml-[20rem] gap-20 relative">
+      <div class="flex justify-start ml-[20rem] gap-20">
         <div class="flex-col">
           <div class="w-[34rem]">
             <h1 id="sec3Title" class="text-5xl font-extrabold">
@@ -389,7 +376,7 @@
               remember it’s not your local machine.
             </p>
           </div>
-          <div class="flex w-[35rem] gap-20">
+          <div class="flex flex-wrap justify-between gap-20">
             <div id="specCol1" class="flex flex-col">
               <div
                 class="text-gray-400 mt-6 font-light text-[1rem] tracking-wide"
@@ -398,7 +385,6 @@
               </div>
               <div class="font-extrabold text-3xl">32 cores</div>
             </div>
-
             <div id="specCol2" class="flex flex-col">
               <div
                 class="text-gray-400 mt-6 font-light text-[1rem] tracking-wide"
@@ -415,15 +401,15 @@
               </div>
               <div class="font-extrabold text-3xl">&lt10 sec</div>
             </div>
+          </div>
         </div>
-        <div class="">
-          <div class="absolute right-52 -top-52">
-            <img class="w-[50rem]" src="./img/illo-cpu.webp" alt="" />
+        <div class="relative w-[40rem]">
+          <div class="absolute -top-48">
+            <img class="min-w-[46rem]" src="./img/illo-cpu.webp" alt="" />
           </div>
         </div>
       </div>
     </section>
-
     <section id="standardizedDevEnv" class="mt-44 h-[70vh]">
       <div class="flex justify-center items-center gap-28">
         <div class="flex-col">
@@ -437,17 +423,18 @@
               id="sec4Para"
               class="text-gray-400 mt-6 font-light text-[1.3rem] tracking-wide"
             >
-            Join a new team and just start coding. Standardize environments, runtime requirements, hardware specs, extensions and editor settings in .devcontainer.json configuration files. Isolate dependencies between projects with containers and docker-compose.
+              Join a new team and just start coding. Standardize environments,
+              runtime requirements, hardware specs, extensions and editor
+              settings in .devcontainer.json configuration files. Isolate
+              dependencies between projects with containers and docker-compose.
             </p>
           </div>
-          
         </div>
         <div class="relative">
           <div class="rounded-lg overflow-hidden">
             <img class="w-[33rem]" src="./img/illo-env-bg.png" alt="" />
           </div>
           <div
-            id="terminalImage"
             class="rounded-lg overflow-hidden w-[32rem] absolute left-36 top-48"
           >
             <!-- <img src="./img/illo-terminal.webp" alt="" /> -->
@@ -455,7 +442,6 @@
         </div>
       </div>
     </section>
-
     <!-- IMPORT GREENSOCK -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
@@ -473,7 +459,6 @@
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () {
