@@ -80,3 +80,38 @@ img {
   display: block;
   object-fit: cover;
 }
+
+.extend-beyond-left-of-vp {
+  margin-left: -10vw;
+}
+
+.extend-beyond-right-of-vp {
+  margin-right: -10vw;
+}
+
+.slightly-extend-beyond-left-of-vp {
+  margin-left: -1.7vw;
+}
+
+.colorBGInsert {
+  background: rgb(10, 114, 254);
+  background: linear-gradient(
+    -210deg,
+    rgb(0, 85, 196) 0%,
+    rgba(197, 153, 254, 1) 58%,
+    rgba(101, 9, 221, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.container {
+  @apply p-8 text-white;
+}
+
+.faqBox:hover {
+  cursor: pointer;
+}
+
+.faqAnswerHide {
+  display: hidden;
+}

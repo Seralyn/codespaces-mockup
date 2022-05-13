@@ -430,15 +430,782 @@
             </p>
           </div>
         </div>
-        <div class="relative">
-          <div class="rounded-lg overflow-hidden">
-            <img class="w-[33rem]" src="./img/illo-env-bg.png" alt="" />
+
+        <div class="rounded-lg relative">
+          <div class="shrink-0">
+            <img
+              class="min-w-[34rem] w-[34rem] shrink-0"
+              src="./img/illo-env-bg.png"
+              alt=""
+            />
           </div>
           <div
-            class="rounded-lg overflow-hidden w-[32rem] absolute left-36 top-48"
+            class="absolute top-32 left-24 border border-gray-600 border-dashed rounded-md overflow-hidden w-[30rem]"
+            id="dashedBox1"
           >
-            <!-- <img src="./img/illo-terminal.webp" alt="" /> -->
+            <img
+              src="./img/illo-env-ports-settings.png"
+              class="w-[36rem]"
+              alt=""
+            />
           </div>
+          <div
+            class="absolute top-[20rem] left-24 border border-gray-600 border-dashed rounded-md overflow-hidden w-[25rem]"
+            id="dashedBox2"
+          >
+            <img
+              src="./img/illo-env-post-create.png"
+              class="w-[30rem]"
+              alt=""
+            />
+          </div>
+          <div
+            class="absolute top-[26rem] left-24 border border-gray-600 border-dashed rounded-md overflow-hidden w-[30rem]"
+            id="dashedBox3"
+          >
+            <img src="./img/illo-env-extensions.png" class="w-[30rem]" alt="" />
+          </div>
+        </div>
+        <div
+          class="rounded-lg overflow-hidden w-[32rem] absolute left-36 top-48"
+        >
+          <!-- <img src="./img/illo-terminal.webp" alt="" /> -->
+        </div>
+      </div>
+    </section>
+    <section id="browserPreview" class="mt-44 h-[70vh]">
+      <div class="flex justify-center items-center gap-28">
+        <div class="flex-col">
+          <div class="w-[32rem]">
+            <h1 id="sec4Title" class="text-5xl font-extrabold">
+              Browser preview and port forwarding
+            </h1>
+          </div>
+          <div class="w-[37rem] mt-10">
+            <p
+              id="sec4Para"
+              class="text-gray-400 mt-6 font-light text-[1.3rem] tracking-wide"
+            >
+              Preview your changes in the browser with instant reloads
+              (websocket and HMR support) and share private and public ports
+              with your teammates.
+            </p>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="rounded-lg overflow-hidden">
+            <img class="w-[34rem] z-10" src="./img/illo-hello.png" alt="" />
+          </div>
+          <div
+            class="rounded-lg overflow-hidden absolute left-44 top-32 z-30"
+            id="popUp1"
+          >
+            <img src="./img/illo-context-menu.png" class="w-[20rem]" alt="" />
+          </div>
+          <div
+            class="rounded-lg overflow-hidden absolute -left-14 top-72 z-20"
+            id="popUp2"
+          >
+            <img src="./img/illo-ports.png" class="w-[23rem]" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="stuffYouCareAbout">
+      <div class="flex flex-col justify-center items-center">
+        <div class="w-[70rem] text-center">
+          <h1 id="sec4Title" class="text-5xl font-bold">
+            Tabs, spaces, Monokai, Solarized, light, dark, Prettier, Beautify...
+          </h1>
+        </div>
+        <div class="w-[47rem] text-center">
+          <p
+            id="sec4Para"
+            class="text-gray-400 mt-6 mb-16 font-light text-[1.3rem] tracking-wide"
+          >
+            Every nerdy detail only you care about, configured just right,
+            backed by your own dotfiles repository.
+          </p>
+        </div>
+      </div>
+      <div class="flex justify-evenly">
+        <div
+          class="mt-12 rounded-lg overflow-hidden extend-beyond-left-of-vp z-20 flex-shrink-0"
+          id="windowFromLeft"
+        >
+          <img src="./img/theme-left.webp" alt="" />
+        </div>
+        <div
+          class="w-[50rem] rounded-lg mb-12 fancy-shadow border-black overflow-hidden z-10 flex-shrink-0 mx-10"
+        >
+          <img src="./img/theme-middle.webp" alt="" />
+        </div>
+        <div
+          class="mt-12 rounded-lg overflow-hidden extend-beyond-right-of-vp z-20 flex-shrink-0"
+          id="windowFromRight"
+        >
+          <img src="./img/theme-right.webp" alt="" />
+        </div>
+      </div>
+      <div>
+        <div class="flex justify-evenly gap-16 no-wrap flex-shrink-0 px-5">
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/python.png" class="w-10" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">Python</div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                Rich support for Python
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/c-c.png" class="w-10" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">C/C++</div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                Adds language support for C/C++
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/jupyter.png" class="w-10" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">Jupyter</div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                Provides basic notebook support for language kernels
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/es-lint.png" class="w-10" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">ES Lint</div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                Integrates ESLint JavaScript into VS Code
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/prettier.png" class="w-14" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">Prettier</div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                An opinionated code formatter for consistent style
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/live-server.png" class="h-10 mx-1" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">
+                Live Server
+              </div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                Live reload feature for static & dynamic pages
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-evenly gap-4 pr-14">
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex slightly-extend-beyond-left-of-vp flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/material-icon-theme.png" class="w-10" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">
+                Material Icon Theme
+              </div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                Material Design Icons for Visual Studio Code
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 pb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/c.png" class="w-16" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">C#</div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                C# editing support for Visual Studio Code
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/vetur.png" class="w-10" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">Vetur</div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                Vue tooling for VS Code
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/github-copilot.png" class="w-10" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">
+                GitHub Copilot
+              </div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                AI pair programmer trained on billions of line sof code
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/gitlens.png" class="w-10" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">GitLens</div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                Supercharge the Git capabilities built into VS Code
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/debugger-for-java.png" class="w-10" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">
+                Debugger for Java
+              </div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                A lightweight Java debugger for Visual Studio Code
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-50 inner-shadow shadow w-72 h-24 bg-[#1a2129] py-6 px-4 rounded-md border border-[#171717] mb-4 flex flex-shrink-0 featureBox"
+          >
+            <div class="mr-4 self-center">
+              <img src="./img/docker.png" class="w-10" alt="" />
+            </div>
+            <div class="flex flex-col justify-start items-start">
+              <div class="font-normal text-white text-[0.9rem]">Docker</div>
+              <div class="text-gray-400 font-light text-[0.8rem]">
+                Create, manage, and debug containerized applications
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flex justify-center mt-48 mb-8 text-center">
+        <div class="w-[34rem]">
+          <h2 class="text-white text-[4rem] font-extrabold leading-none">
+            GitHub builds with Codespaces
+          </h2>
+          <p class="text-2xl mt-6">
+            Learn how GitHub builds GitHub with Codespaces
+          </p>
+        </div>
+      </div>
+      <div class="flex justify-center gap-6 mb-32">
+        <div
+          class="w-[34rem] h-[24.5rem] bg-[#21262d] py-6 px-4 rounded-md border border-[#171717] flex flex-col justify-between items-start my-2"
+        >
+          <blockquote class="text-medium">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              fill="none"
+              height="67"
+              viewBox="0 0 90 67"
+              width="90"
+              class="d-block mb-3"
+            >
+              <linearGradient
+                id="a"
+                gradientUnits="userSpaceOnUse"
+                x1=".324219"
+                x2="53.5793"
+                y1=".875977"
+                y2="3.6836"
+              >
+                <stop
+                  offset="0"
+                  stop-color="var(--mktg-accent-primary, var(--color-fg-muted))"
+                ></stop>
+                <stop
+                  offset="1"
+                  stop-color="var(--mktg-accent-secondary, var(--color-fg-muted))"
+                ></stop>
+              </linearGradient>
+              <path
+                clip-rule="evenodd"
+                d="m33.0938 31.456v-1h2.0744v1.9675h-1v-.9675zm1.0744 3.8701h1v1.9351h-1zm0 4.8378h1v1.935h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9676h-1.9384v-1h.9384zm-31.90558.9676h-.9384v-.9501h-1.000001v1.9501h1.938401zm-.9384-32.302v-.95c0-.3279.00414-.6534.0124-.9763l-.999671-.0256c-.008478.3316-.01273.6656-.01273 1.0019v.95zm.20336-4.8278-.994248-.107c.072344-.6717.163286-1.3325.272558-1.9822l.98615.1659c-.10593.6298-.19419 1.271-.26446 1.9233zm.88168-4.7645-.96572-.2596c.17571-.6537.37162-1.2946.58738-1.9224l.94571.325c-.20825.6059-.3975 1.225-.56737 1.857zm1.6586-4.553-.90512-.4251c.28734-.6118.59555-1.2088.92415-1.7909l.87083.4916c-.31629.5603-.61306 1.1351-.88986 1.7244zm2.4616-4.1719-.80922-.5875c.3952-.5443.81053-1.0727 1.24547-1.585l.76232.6472c-.41864.4931-.81832 1.0016-1.19857 1.5253zm3.20252-3.6339-.68562-.7279c.48655-.45828.99134-.90039 1.51374-1.32624l.6318.77511c-.5042.41103-.991.83743-1.45992 1.27903zm3.80622-2.99869-.55-.8352c.5543-.36494 1.1242-.71446 1.7093-1.04849l.4957.86844c-.567.32373-1.1188.66219-1.655 1.01525zm4.2434-2.34251-.4171-.90886c.5993-.27504 1.2118-.53589 1.837-.78247l.3669.93027c-.6087.24005-1.2044.49377-1.7868.76106zm4.5303-1.72344-.2958-.95524c.6266-.19403 1.2641-.3752 1.9122-.54343l.2512.96792c-.6335.16444-1.2561.34139-1.8676.53075zm4.7048-1.16959-.1889-.982c.6414-.12337 1.2919-.23511 1.9512-.33518l.1501.98868c-.6466.09814-1.2842.20767-1.9124.3285zm4.8047-.68561-.0957-.9954c.6486-.06239 1.3047-.11424 1.9683-.15549l.062.99807c-.6525.04057-1.2974.09153-1.9346.15282zm-30.49718 33.72114h-1.000001v1.9001h1.000001zm0 4.7503h-1.000001v1.9001h1.000001zm0 4.7503h-1.000001v1.9001h1.000001zm0 4.7503h-1.000001v1.9001h1.000001zm0 4.7502h-1.000001v1.9002h1.000001zm0 4.7503h-1.000001v1.9001h1.000001zm3.7536 5.7004v1h1.8768v-1zm4.692 0v1h1.87678v-1zm4.69198 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm1.3328-33.864v-1h-2.1488v1zm-5.372 0v-1h-2.1488v1zm-5.372 0v-1h-.0744v-.224c0-.3121.0061-.6205.0185-.9251l-.9992-.0404c-.0129.3185-.0193.6404-.0193.9655v1.224zm-.74-5.0658.9832.1827c.1128-.6072.2562-1.194.4312-1.7594l-.9554-.2956c-.187.6046-.3395 1.2293-.459 1.8723zm1.5847-4.5344.8748.4844c.2877-.5196.6121-1.015.9748-1.4851l-.7917-.6109c-.3943.511-.7463 1.0489-1.0579 1.6116zm3.0728-3.6821.6339.7734c.4484-.3675.9344-.7127 1.4601-1.0339l-.5214-.8534c-.5639.3446-1.0876.7164-1.5726 1.1139zm4.1654-2.3901.3644.9313c.5474-.2142 1.1264-.4091 1.738-.5833l-.2739-.9618c-.6407.1825-1.2499.3874-1.8285.6138zm4.6547-1.2369.1608.987c.5937-.0968 1.2116-.1775 1.8544-.2413l-.0988-.9951c-.6625.0658-1.3011.1491-1.9164.2494zm4.8021-.4201c.3186-.0071.6419-.0106.9699-.0106v-1.224h1v2.224h-1c-.3208 0-.6367.0034-.9478.0103zm.9699-4.90662h1v-2.448h-1zm0-6.12h1v-2.224003h-1c-.3318 0-.662.00246-.9906.007377l.0149.992626h-.0243v.00763c.0081-.00012.0163-.00025.0244-.00037.1581-.00237.3167-.00415.4756-.00536.1663-.00127.3329-.0019.5-.0019zm46.4712 28.35602v-1h2.0608v1.9675h-1v-.9675zm1.0608 3.8701h1v1.9351h-1zm0 4.8378h1v1.935h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9676h-1.9384v-1h.9384zm-31.9056.9676h-.9384v-.9501h-1v1.9501h1.9384zm-.9384-32.302v-.95c0-.3279.0042-.6534.0124-.9763l-.9996-.0256c-.0085.3316-.0128.6656-.0128 1.0019v.95zm.2034-4.8278-.9943-.107c.0724-.6717.1633-1.3325.2726-1.9822l.9861.1659c-.1059.6298-.1941 1.271-.2644 1.9233zm.8817-4.7645-.9658-.2596c.1758-.6537.3717-1.2946.5874-1.9224l.9457.325c-.2082.6059-.3975 1.225-.5673 1.857zm1.6586-4.553-.9052-.4251c.2874-.6118.5956-1.2088.9242-1.7909l.8708.4916c-.3163.5603-.613 1.1351-.8898 1.7244zm2.4616-4.1719-.8093-.5875c.3952-.5443.8106-1.0727 1.2455-1.585l.7623.6472c-.4186.4931-.8183 1.0016-1.1985 1.5253zm3.2025-3.6339-.6856-.7279c.4865-.45828.9913-.90039 1.5137-1.32624l.6318.77511c-.5042.41103-.991.83743-1.4599 1.27903zm3.8062-2.99869-.55-.8352c.5543-.36494 1.1242-.71446 1.7093-1.04849l.4958.86844c-.5671.32373-1.1189.66219-1.6551 1.01525zm4.2434-2.34251-.4171-.90886c.5993-.27504 1.2118-.53589 1.837-.78247l.3669.93027c-.6087.24005-1.2044.49377-1.7868.76106zm4.5303-1.72344-.2958-.95524c.6266-.19403 1.2641-.3752 1.9122-.54343l.2512.96792c-.6335.16444-1.2561.34139-1.8676.53075zm4.7048-1.16959-.1889-.982c.6414-.12337 1.2919-.23511 1.9512-.33518l.1501.98868c-.6466.09814-1.2842.20767-1.9124.3285zm4.8047-.68561-.0957-.9954c.6486-.06239 1.3047-.11424 1.9683-.15549l.062.99807c-.6525.04057-1.2974.09153-1.9346.15282zm-30.4972 33.72114h-1v1.9001h1zm0 4.7503h-1v1.9001h1zm0 4.7503h-1v1.9001h1zm0 4.7503h-1v1.9001h1zm0 4.7502h-1v1.9002h1zm0 4.7503h-1v1.9001h1zm3.7536 5.7004v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm1.3872-33.864v-1h-2.1216v1zm-5.304 0v-1h-2.1216v1zm-5.304 0v-1h-.0608v-.224c0-.3111.0059-.6185.0176-.9222l-.9992-.0388c-.0123.3171-.0184.6375-.0184.961v1.224zm-.7406-5.0492.9843.1762c.1086-.6062.2467-1.1922.4156-1.7567l-.958-.2866c-.1804.603-.3272 1.226-.4419 1.8671zm1.5336-4.5286.8804.4741c.2806-.521.5974-1.0175.9523-1.4885l-.7987-.6018c-.3861.5125-.7301 1.0519-1.034 1.6162zm3.0182-3.6969.6404.768c.4424-.3689.9227-.7154 1.4432-1.0376l-.5265-.8502c-.5592.3462-1.0777.72-1.5571 1.1198zm4.1322-2.4007.3669.9302c.5431-.2142 1.1183-.409 1.7268-.5832l-.2751-.9614c-.638.1826-1.2438.3877-1.8186.6144zm4.6308-1.2363.161.9869c.5904-.0963 1.2053-.1766 1.8455-.2401l-.0987-.9951c-.66.0654-1.2957.1484-1.9078.2483zm4.7795-.4178c.317-.007.6389-.0105.9655-.0105v-1.224h1v2.224h-1c-.3194 0-.6339.0034-.9435.0103zm.9655-4.90652h1v-2.448h-1zm0-6.12h1v-2.224003h-1c-.3318 0-.662.00246-.9906.007377l.0149.992626h-.0243v.00763c.0081-.00012.0163-.00025.0244-.00037.1581-.00237.3167-.00415.4756-.00536.1663-.00127.3329-.0019.5-.0019z"
+                fill="#9c55f5"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+          </blockquote>
+          <div class="text-3xl mb-4 leading-10">
+            Unreal-Codespaces had me running a server in minutes, and that never
+            happens as a new hire. What an awesome first week!
+          </div>
+
+          <div class="flex justify-start items-center">
+            <img src="./img/chris.webp" class="w-10 rounded-full mr-2" alt="" />
+            <div class="flex flex-col items-start justify-center">
+              <div class="block text-xl">Chris Westra</div>
+              <div class="block text-gray-500">
+                <code>Senior Software Engineer</code>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[34rem] h-[24.5rem] bg-[#21262d] py-6 px-4 rounded-md border border-[#171717] flex flex-col items-start justify-between my-2"
+        >
+          <blockquote class="text-medium">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              fill="none"
+              height="67"
+              viewBox="0 0 90 67"
+              width="90"
+              class="d-block mb-3"
+            >
+              <linearGradient
+                id="a"
+                gradientUnits="userSpaceOnUse"
+                x1=".324219"
+                x2="53.5793"
+                y1=".875977"
+                y2="3.6836"
+              >
+                <stop
+                  offset="0"
+                  stop-color="var(--mktg-accent-primary, var(--color-fg-muted))"
+                ></stop>
+                <stop
+                  offset="1"
+                  stop-color="var(--mktg-accent-secondary, var(--color-fg-muted))"
+                ></stop>
+              </linearGradient>
+              <path
+                clip-rule="evenodd"
+                d="m33.0938 31.456v-1h2.0744v1.9675h-1v-.9675zm1.0744 3.8701h1v1.9351h-1zm0 4.8378h1v1.935h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9676h-1.9384v-1h.9384zm-31.90558.9676h-.9384v-.9501h-1.000001v1.9501h1.938401zm-.9384-32.302v-.95c0-.3279.00414-.6534.0124-.9763l-.999671-.0256c-.008478.3316-.01273.6656-.01273 1.0019v.95zm.20336-4.8278-.994248-.107c.072344-.6717.163286-1.3325.272558-1.9822l.98615.1659c-.10593.6298-.19419 1.271-.26446 1.9233zm.88168-4.7645-.96572-.2596c.17571-.6537.37162-1.2946.58738-1.9224l.94571.325c-.20825.6059-.3975 1.225-.56737 1.857zm1.6586-4.553-.90512-.4251c.28734-.6118.59555-1.2088.92415-1.7909l.87083.4916c-.31629.5603-.61306 1.1351-.88986 1.7244zm2.4616-4.1719-.80922-.5875c.3952-.5443.81053-1.0727 1.24547-1.585l.76232.6472c-.41864.4931-.81832 1.0016-1.19857 1.5253zm3.20252-3.6339-.68562-.7279c.48655-.45828.99134-.90039 1.51374-1.32624l.6318.77511c-.5042.41103-.991.83743-1.45992 1.27903zm3.80622-2.99869-.55-.8352c.5543-.36494 1.1242-.71446 1.7093-1.04849l.4957.86844c-.567.32373-1.1188.66219-1.655 1.01525zm4.2434-2.34251-.4171-.90886c.5993-.27504 1.2118-.53589 1.837-.78247l.3669.93027c-.6087.24005-1.2044.49377-1.7868.76106zm4.5303-1.72344-.2958-.95524c.6266-.19403 1.2641-.3752 1.9122-.54343l.2512.96792c-.6335.16444-1.2561.34139-1.8676.53075zm4.7048-1.16959-.1889-.982c.6414-.12337 1.2919-.23511 1.9512-.33518l.1501.98868c-.6466.09814-1.2842.20767-1.9124.3285zm4.8047-.68561-.0957-.9954c.6486-.06239 1.3047-.11424 1.9683-.15549l.062.99807c-.6525.04057-1.2974.09153-1.9346.15282zm-30.49718 33.72114h-1.000001v1.9001h1.000001zm0 4.7503h-1.000001v1.9001h1.000001zm0 4.7503h-1.000001v1.9001h1.000001zm0 4.7503h-1.000001v1.9001h1.000001zm0 4.7502h-1.000001v1.9002h1.000001zm0 4.7503h-1.000001v1.9001h1.000001zm3.7536 5.7004v1h1.8768v-1zm4.692 0v1h1.87678v-1zm4.69198 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm1.3328-33.864v-1h-2.1488v1zm-5.372 0v-1h-2.1488v1zm-5.372 0v-1h-.0744v-.224c0-.3121.0061-.6205.0185-.9251l-.9992-.0404c-.0129.3185-.0193.6404-.0193.9655v1.224zm-.74-5.0658.9832.1827c.1128-.6072.2562-1.194.4312-1.7594l-.9554-.2956c-.187.6046-.3395 1.2293-.459 1.8723zm1.5847-4.5344.8748.4844c.2877-.5196.6121-1.015.9748-1.4851l-.7917-.6109c-.3943.511-.7463 1.0489-1.0579 1.6116zm3.0728-3.6821.6339.7734c.4484-.3675.9344-.7127 1.4601-1.0339l-.5214-.8534c-.5639.3446-1.0876.7164-1.5726 1.1139zm4.1654-2.3901.3644.9313c.5474-.2142 1.1264-.4091 1.738-.5833l-.2739-.9618c-.6407.1825-1.2499.3874-1.8285.6138zm4.6547-1.2369.1608.987c.5937-.0968 1.2116-.1775 1.8544-.2413l-.0988-.9951c-.6625.0658-1.3011.1491-1.9164.2494zm4.8021-.4201c.3186-.0071.6419-.0106.9699-.0106v-1.224h1v2.224h-1c-.3208 0-.6367.0034-.9478.0103zm.9699-4.90662h1v-2.448h-1zm0-6.12h1v-2.224003h-1c-.3318 0-.662.00246-.9906.007377l.0149.992626h-.0243v.00763c.0081-.00012.0163-.00025.0244-.00037.1581-.00237.3167-.00415.4756-.00536.1663-.00127.3329-.0019.5-.0019zm46.4712 28.35602v-1h2.0608v1.9675h-1v-.9675zm1.0608 3.8701h1v1.9351h-1zm0 4.8378h1v1.935h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9351h-1zm0 4.8377h1v1.9676h-1.9384v-1h.9384zm-31.9056.9676h-.9384v-.9501h-1v1.9501h1.9384zm-.9384-32.302v-.95c0-.3279.0042-.6534.0124-.9763l-.9996-.0256c-.0085.3316-.0128.6656-.0128 1.0019v.95zm.2034-4.8278-.9943-.107c.0724-.6717.1633-1.3325.2726-1.9822l.9861.1659c-.1059.6298-.1941 1.271-.2644 1.9233zm.8817-4.7645-.9658-.2596c.1758-.6537.3717-1.2946.5874-1.9224l.9457.325c-.2082.6059-.3975 1.225-.5673 1.857zm1.6586-4.553-.9052-.4251c.2874-.6118.5956-1.2088.9242-1.7909l.8708.4916c-.3163.5603-.613 1.1351-.8898 1.7244zm2.4616-4.1719-.8093-.5875c.3952-.5443.8106-1.0727 1.2455-1.585l.7623.6472c-.4186.4931-.8183 1.0016-1.1985 1.5253zm3.2025-3.6339-.6856-.7279c.4865-.45828.9913-.90039 1.5137-1.32624l.6318.77511c-.5042.41103-.991.83743-1.4599 1.27903zm3.8062-2.99869-.55-.8352c.5543-.36494 1.1242-.71446 1.7093-1.04849l.4958.86844c-.5671.32373-1.1189.66219-1.6551 1.01525zm4.2434-2.34251-.4171-.90886c.5993-.27504 1.2118-.53589 1.837-.78247l.3669.93027c-.6087.24005-1.2044.49377-1.7868.76106zm4.5303-1.72344-.2958-.95524c.6266-.19403 1.2641-.3752 1.9122-.54343l.2512.96792c-.6335.16444-1.2561.34139-1.8676.53075zm4.7048-1.16959-.1889-.982c.6414-.12337 1.2919-.23511 1.9512-.33518l.1501.98868c-.6466.09814-1.2842.20767-1.9124.3285zm4.8047-.68561-.0957-.9954c.6486-.06239 1.3047-.11424 1.9683-.15549l.062.99807c-.6525.04057-1.2974.09153-1.9346.15282zm-30.4972 33.72114h-1v1.9001h1zm0 4.7503h-1v1.9001h1zm0 4.7503h-1v1.9001h1zm0 4.7503h-1v1.9001h1zm0 4.7502h-1v1.9002h1zm0 4.7503h-1v1.9001h1zm3.7536 5.7004v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm4.692 0v1h1.8768v-1zm1.3872-33.864v-1h-2.1216v1zm-5.304 0v-1h-2.1216v1zm-5.304 0v-1h-.0608v-.224c0-.3111.0059-.6185.0176-.9222l-.9992-.0388c-.0123.3171-.0184.6375-.0184.961v1.224zm-.7406-5.0492.9843.1762c.1086-.6062.2467-1.1922.4156-1.7567l-.958-.2866c-.1804.603-.3272 1.226-.4419 1.8671zm1.5336-4.5286.8804.4741c.2806-.521.5974-1.0175.9523-1.4885l-.7987-.6018c-.3861.5125-.7301 1.0519-1.034 1.6162zm3.0182-3.6969.6404.768c.4424-.3689.9227-.7154 1.4432-1.0376l-.5265-.8502c-.5592.3462-1.0777.72-1.5571 1.1198zm4.1322-2.4007.3669.9302c.5431-.2142 1.1183-.409 1.7268-.5832l-.2751-.9614c-.638.1826-1.2438.3877-1.8186.6144zm4.6308-1.2363.161.9869c.5904-.0963 1.2053-.1766 1.8455-.2401l-.0987-.9951c-.66.0654-1.2957.1484-1.9078.2483zm4.7795-.4178c.317-.007.6389-.0105.9655-.0105v-1.224h1v2.224h-1c-.3194 0-.6339.0034-.9435.0103zm.9655-4.90652h1v-2.448h-1zm0-6.12h1v-2.224003h-1c-.3318 0-.662.00246-.9906.007377l.0149.992626h-.0243v.00763c.0081-.00012.0163-.00025.0244-.00037.1581-.00237.3167-.00415.4756-.00536.1663-.00127.3329-.0019.5-.0019z"
+                fill="#468eff"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+          </blockquote>
+          <div class="text-3xl mb-4 leading-10">
+            Day 2 of Codespaces: Shipped a pull request and started working on
+            another one without waiting for script/bootstrap
+          </div>
+
+          <div class="flex justify-start items-center">
+            <img src="./img/yumin.webp" class="w-10 rounded-full mr-2" alt="" />
+            <div class="flex flex-col items-start justify-center">
+              <div class="block text-xl">Yumin Wong</div>
+              <div class="block text-gray-500">
+                <code>Staff Software Engineer</code>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mb-[8rem]">
+      <div class="flex flex-col justify-center text-center">
+        <h2
+          class="text-white text-[2.5rem] lg:text-[3rem] font-extrabold leading-none"
+        >
+          Pay as you go
+        </h2>
+      </div>
+      <div
+        class="flex h-[37rem] m-10 rounded-lg overflow-hidden justify-center"
+      >
+        <div
+          class="colorBGInsert flex flex-col items-center justify-center w-[25rem]"
+        >
+          <div>
+            <img src="./img/codespaces-logo.svg" class="w-20" alt="" />
+          </div>
+          <div class="text-center text-xl font-medium px-11 font-medium my-6">
+            Available today for GitHub Teams and GitHub Enterprise Cloud
+            customers
+          </div>
+          <div
+            class="bg-gray-100 rounded-md w-64 h-14 text-black text-center border-0 flex justify-center items-center"
+          >
+            <div class="font-bold">Get started ></div>
+          </div>
+        </div>
+        <div class="bg-[#161c23] w-[45rem]">
+          <div class="container flex-col items-start justify-start">
+            <div class="text-xl">Codespaces Computer</div>
+            <div class="text-sm text-gray-500 mb-6">
+              Isolated VMs billed per second
+            </div>
+            <div
+              class="border-b border-gray-600 flex justify-between text-gray-500"
+            >
+              <div>Cores</div>
+              <div>RAM</div>
+              <div class="mr-20 mb-3">Price</div>
+            </div>
+            <div
+              class="border-b border-gray-700 flex justify-between mt-3 text-sm"
+            >
+              <div>2 core</div>
+              <div>4GB</div>
+              <div class="mb-4 mr-16">
+                $.18
+                <div class="text-xs text-gray-500">per hour</div>
+              </div>
+            </div>
+            <div
+              class="border-b border-gray-700 flex justify-between mt-3 text-sm"
+            >
+              <div>4 core</div>
+              <div>8GB</div>
+              <div class="mb-4 mr-16">
+                $.36
+                <div class="text-xs text-gray-500">per hour</div>
+              </div>
+            </div>
+            <div
+              class="border-b border-gray-700 flex justify-between mt-3 text-sm"
+            >
+              <div>8 core</div>
+              <div>16GB</div>
+              <div class="mb-4 mr-16">
+                $.72
+                <div class="text-xs text-gray-500">per hour</div>
+              </div>
+            </div>
+            <div
+              class="border-b border-gray-700 flex justify-between mt-3 text-sm"
+            >
+              <div>16 core</div>
+              <div>32GB</div>
+              <div class="mb-4 mr-16">
+                $1.44
+                <div class="text-xs text-gray-500">per hour</div>
+              </div>
+            </div>
+            <div class="flex justify-between mt-3 text-sm">
+              <div>32 core</div>
+              <div>64GB</div>
+              <div class="mb-5 mr-16">
+                $2.88
+                <div class="text-xs text-gray-500">per hour</div>
+              </div>
+            </div>
+            <div
+              class="flex justify-between items-center pt-8 border-t border-gray-600"
+            >
+              <div class="flex flex-col">
+                <div class="text-xl">Codespaces storage</div>
+                <div class="text-xs text-gray-500">charged when inactive</div>
+              </div>
+              <div class="flex flex-col">
+                <div class="text-xl">$0.07</div>
+                <div class="text-xs text-gray-500">per gigabyte per month</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flex flex-col mx-40 mb-[13rem] justify-center items-center">
+        <div>
+          <div class="text-[2.5rem] font-bold mb-16 self-center">
+            Frequently asked questions
+          </div>
+          <div
+            class="border-b border-gray-700 py-5 text-xl w-[60rem] hover:border-b-2 faqBox"
+          >
+            <div id="faqQuestion1">How do I get access to Codespaces?</div>
+            <div id="faqAnswer1" class="text-sm text-gray-500 mt-3 hidden">
+              Codespaces is rolling out progressively on August 11th, 2021 and
+              can be enabled in settings by organization owners for Team and
+              Enterprise Cloud plans. For users in individual plans, we’re
+              extending the existing Codespaces beta. For those in the beta,
+              access will remain and we’ll share updates on what’s coming in the
+              near future.
+            </div>
+          </div>
+          <div
+            class="border-b border-gray-700 py-5 text-xl w-[60rem] hover:border-b-2 faqBox"
+          >
+            Does GitHub use Codespaces?
+          </div>
+          <div
+            class="border-b border-gray-700 py-5 text-xl w-[60rem] hover:border-b-2 faqBox"
+          >
+            How much does Codespaces cost for organizations?
+          </div>
+          <div
+            class="border-b border-gray-700 py-5 text-xl w-[60rem] hover:border-b-2 faqBox"
+          >
+            What is github.dev?
+          </div>
+          <div
+            class="border-b border-gray-700 py-5 text-xl w-[60rem] hover:border-b-2 faqBox"
+          >
+            When can I use Codespaces on my personal repos?
+          </div>
+          <div
+            class="border-b border-gray-700 py-5 text-xl w-[60rem] hover:border-b-2 faqBox"
+          >
+            Can I run a Codespace locally?
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flex flex-col justify-start items-start ml-12">
+        <div class="text-3xl font-semibold mb-3">GitHub</div>
+        <div class="flex flex-col">
+          <div class="text-sm text-gray-300 mt-3">
+            Subscribe to our newsletter
+          </div>
+          <div class="text-sm text-[#8A92A0] mb-5">
+            Get product updates, company news, and more.
+          </div>
+          <div
+            class="border border-gray-500 hover:border-2 hover:border-white text-center p-3 w-32 rounded-md mb-24"
+          >
+            Subscribe
+          </div>
+        </div>
+        <div class="flex justify-between w-full pr-32">
+          <div class="flex flex-col items-start justify-evenly">
+            <div>
+              <code class="text-[#8A92A0] text-sm font-medium">Product</code>
+            </div>
+            <ul>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Features
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Security
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Team
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Enterprise
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Customer stories
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                The ReadME Project
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Pricing
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Resources
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Roadmap
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col items-start justify-start">
+            <div>
+              <code class="text-[#8A92A0] text-sm font-medium">Platform</code>
+            </div>
+            <ul>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Developer API
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Partners
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Atom
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Electron
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                GitHub Desktop
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col items-start justify-start">
+            <div>
+              <code class="text-[#8A92A0] text-sm font-medium">Support</code>
+            </div>
+            <ul>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Docs
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Community Forum
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Professional Services
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Learning Lab
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Status
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Contact GitHub
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col items-start justify-start">
+            <div>
+              <code class="text-[#8A92A0] text-sm font-medium">Company</code>
+            </div>
+            <ul>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                About
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Blog
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Careers
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Press
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Inclusion
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Social Impact
+              </li>
+              <li
+                class="text-sm text-[#8A92A0] hover:text-white my-3 font-medium"
+              >
+                Shop
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer" class="mt-20">
+      <div
+        class="flex justify-between w-[100%] bg-[#161b22] h-[4.4rem] items-center"
+      >
+        <div
+          class="flex justify-evenly ml-16 text-xs text-gray-400 gap-6 font-light"
+        >
+          <div>©2022 GitHub, Inc.</div>
+          <div>Terms</div>
+          <div>Privacy</div>
+          <div>Site Map</div>
+          <div>What is Git</div>
+        </div>
+        <div class="flex justify-evenly gap-4 mr-8">
+          <img class="w-5 h-5" src="./img/twitter.svg" alt="" />
+          <img class="w-5 h-5" src="./img/facebook.svg" alt="" />
+          <img class="w-5 h-5" src="./img/youtube.svg" alt="" />
+          <img class="w-5 h-5" src="./img/linkedin.svg" alt="" />
+          <img class="w-5 h-5" src="./img/github-mark.svg" alt="" />
         </div>
       </div>
     </section>
