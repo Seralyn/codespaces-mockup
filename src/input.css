@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  max-width: 100vw;
+}
+
 body {
   background-color: #0d1117;
   color: white;
+  max-width: 100vw;
+  
 }
 
 /* The switch - the box around the slider */
@@ -114,4 +120,8 @@ img {
 
 .faqAnswerHide {
   display: hidden;
+}
+
+.inherit-width {
+  width: -webkit-fill-available
 }

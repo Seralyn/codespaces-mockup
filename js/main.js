@@ -2,33 +2,33 @@
 // Add the accordion-bottomBorder class to all opened accordions
 
 // faqQuestion1 = document.getElementById("#faqQuestion1");
-// faqAnswer1 = document.getElementById("#faqAnswer1");
-faqQuestion2 = document.getElementById("#faqQuestion2").addEventListener("click", (e) => {....});
-faqAnswer2 = document.getElementById("#faqAnswer2");
-// faqQuestion3 = document.getElementById("#faqQuestion3");
-// faqAnswer3 = document.getElementById("#faqAnswer3");
-// faqQuestion4 = document.getElementById("#faqQuestion4");
-// faqAnswer4 = document.getElementById("#faqAnswer4");
-// faqQuestion5 = document.getElementById("#faqQuestion5");
-// faqAnswer5 = document.getElementById("#faqAnswer5");
-// faqQuestion6 = document.getElementById("#faqQuestion6");
-// faqAnswer6 = document.getElementById("#faqAnswer6");
-// faqQuestion7 = document.getElementById("#faqQuestion7");
-// faqAnswer7 = document.getElementById("#faqAnswer7");
+// // faqAnswer1 = document.getElementById("#faqAnswer1");
+// faqQuestion2 = document.getElementById("#faqQuestion2").addEventListener("click", (e) => {....});
+// faqAnswer2 = document.getElementById("#faqAnswer2");
+// // faqQuestion3 = document.getElementById("#faqQuestion3");
+// // faqAnswer3 = document.getElementById("#faqAnswer3");
+// // faqQuestion4 = document.getElementById("#faqQuestion4");
+// // faqAnswer4 = document.getElementById("#faqAnswer4");
+// // faqQuestion5 = document.getElementById("#faqQuestion5");
+// // faqAnswer5 = document.getElementById("#faqAnswer5");
+// // faqQuestion6 = document.getElementById("#faqQuestion6");
+// // faqAnswer6 = document.getElementById("#faqAnswer6");
+// // faqQuestion7 = document.getElementById("#faqQuestion7");
+// // faqAnswer7 = document.getElementById("#faqAnswer7");
 
-const toggleFAQAnswer = (e) => {
-  if (answerID.className.indexOf("block") == -1) {
-    answerID.className + "block";
-    answerID.previousElementSibling.className + "border-b-2";
-  } else {
-    answerID.className = answerID.className.replace("block", "hidden");
-    answerID.previousElementSibling.className =
-      answerID.previousElementSibling.className.replace("border-b-2", "");
-  }
-};
-document
-  .querySelectorAll(".faqBox")
-  .addEventListener("click", function(event){...});
+// const toggleFAQAnswer = (e) => {
+//   if (answerID.className.indexOf("block") == -1) {
+//     answerID.className + "block";
+//     answerID.previousElementSibling.className + "border-b-2";
+//   } else {
+//     answerID.className = answerID.className.replace("block", "hidden");
+//     answerID.previousElementSibling.className =
+//       answerID.previousElementSibling.className.replace("border-b-2", "");
+//   }
+// };
+// document
+//   .querySelectorAll(".faqBox")
+//   .addEventListener("click", function(event){...});
 
 // ----------- SCROLL ANIMATION LOGIC -------------
 gsap.registerPlugin(ScrollTrigger);

@@ -604,6 +604,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 10rem;
 }
 
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -731,10 +736,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-\[13rem\] {
   margin-bottom: 13rem;
-}
-
-.ml-12 {
-  margin-left: 3rem;
 }
 
 .mb-24 {
@@ -1121,10 +1122,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
-.border-\[1px\] {
-  border-width: 1px;
-}
-
 .border-0 {
   border-width: 0px;
 }
@@ -1305,8 +1302,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2rem;
 }
 
-.pr-32 {
-  padding-right: 8rem;
+.pl-32 {
+  padding-left: 8rem;
 }
 
 .text-center {
@@ -1469,9 +1466,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+html {
+  max-width: 100vw;
+}
+
 body {
   background-color: #0d1117;
   color: white;
+  max-width: 100vw;
 }
 
 /* The switch - the box around the slider */
@@ -1586,6 +1588,10 @@ img {
   display: hidden;
 }
 
+.inherit-width {
+  width: -webkit-fill-available
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
@@ -1625,6 +1631,11 @@ img {
 }
 
 @media (min-width: 1024px) {
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .lg\:text-\[3rem\] {
     font-size: 3rem;
   }
